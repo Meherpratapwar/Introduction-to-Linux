@@ -1,4 +1,4 @@
-# Introduction-to-Linux
+# Introduction-to-UNIX
 
 *What is Operating System?
 => 1. An operating system is a set of programs which acts an interface between users and computer hardware.
