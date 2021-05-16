@@ -26,6 +26,7 @@
    4. Earlier UNIX was written in assembly language and originally spelled as UNICS.
    5. Later it was re-written in C language and named as UNIX.
    6. UNIX is not a open source OS.
+   7. UNIX is used on mainframes, webservers and supercomputers.
 
 *Features of UNIX
 => 1. Multi-user: More than one user can use the machine simultaneously supported via terminals.
@@ -41,3 +42,77 @@
    11. Help facility: IN UNIX, "man" command is used to view help content on any command.
 
 
+*Similarities between UNIX and MS-DOS
+=> 1.Command Line interface
+   2.Pipes and I/O redirect concept
+   3.Hierarchical structure with the root directory at the top
+   4.Read, write and execution permission on file
+   5.Wildcard character concept
+   
+   
+ *Similarities between UNIX and MS-Windows
+ => 1.Multi-tasking operating system (OS)
+    2.Built-in Networking with TCP/IP as the standard protocol
+    
+    
+  *Difference between UNIX and MS-Windows
+  =>UNIX
+    1.UNIX file system is a hierarchical model
+    2.UNIX is a command line interface
+    3.UNIX is a multi-user and multi-tasking OS
+    4.UNIX is a free-source OS
+    5.UNIX has dumpy terminals (without hard disk)
+    6.UNIX is a case sensitive
+    7.UNIX is not user friendly
+    8.UNIX supports programming facility
+    9.UNIX have muktiple vendors
+
+=>MS-Windows
+  1.Windows file system is a flat model
+  2.Windows is a Graphical user interface
+  3.Windows is a single user and multi-tasking OS
+  4.Windows is licensed OS
+  5.Windows do not support dumpy terminals
+  6.Windows is not a case sensitive
+  7.Windows is a user friendly
+  8.Windows do not support programming facility
+  9.Windows have only one vendor i.e. Microsoft
+
+*Flavours/Variant of UNIX
+=>1.AIX - IBM
+  2.HP Ux - HP
+  3.Solaris - Sun
+  4.Xenix - Microsoft
+  5.TRIX - Silicon graphics
+  6.Linux - Redhat
+
+*UNIX Architecture
+=>1.Hardware/Physical
+  .The hardware layer of the UNIX Operating System controls the use of physical system resources, such as memory manager, process manager, disk drivers, devices and so on.
+  .Hardware consists of all peripheral devices (RAM,HDD,CPU and so on)
+  
+  2.Kernel 
+  .Kernel is heart of UNIX Operating system
+  .IT acts as an interface between hardware and shell layer
+  .Most of the tasks such as memory management, task scheduling, file management and so on are performed by Kernel
+  .It manages external commands in UNIX
+  
+  3.Shell
+  .Shell is an interface between a user application and kernel.
+  .This layer processes your request. When we type a command at the terminal,shell interpretes the command and call the corresponding program.
+  .Shell uses the standard syntax for all commands.
+  .A file "/etc/shells" contains the list of all the shells supported and avilable in the system.
+  .Different shell available in most of the UNIX flavours are:
+   1.C shell (csh)
+   2.Burne shell (sh)
+   3.Korn shell (ksh)
+   4.Born Again Shell (bash)
+
+   4.Application programs
+   .Utility programs and applicaations iven by the user are handled in this layer.
+   .Data in UNIX are organized into files and files are organized into directories which are futher organized into a tree-like structure called the file system.
+   .A file sytem consists a sequence of four blocks:
+     1. BOOT block
+     2. Super block 
+     3. Inode block
+     4. Data block
